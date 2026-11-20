@@ -1,0 +1,88 @@
+name: Build IPA (iOS)
+
+# Chạy tay: Actions -> Build IPA (iOS) -> Run workflow. Hoặc đẩy tag dạng v1.0.0.
+# File IPA tạo ra là bản CHƯA KÝ. Muốn cài lên iPhone cần ký lại bằng Apple ID của bạn
+# (AltStore / Sideloadly) hoặc bằng tài khoản Apple Developer - xem README mục 3.
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write   # để đính IPA vào bản phát hành khi đẩy tag
+
+jobs:
+  ipa:
+    runs-on: macos-latest
+    env:
+      CMP_REMOTE_BASE: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+
+      - name: Cài thư viện và gom file web
+        run: |
+          npm ci
+          npm run build:www
+
+      - name: Tạo dự án iOS + icon từ logo
+        run: |
+          npx cap add ios
+          python3 tools/ios_icons.py ios
+          npx cap sync ios
+          # số build tăng theo số lần chạy
+          sed -i '' "s/CURRENT_PROJECT_VERSION = 1;/CURRENT_PROJECT_VERSION = ${{ github.run_number }};/" ios/App/App.xcodeproj/project.pbxproj
+
+      - name: Hiện phiên bản Xcode
+        run: xcodebuild -version
+
+      - name: Build app (không ký)
+        shell: bash
+        run: |
+          xcodebuild \
+            -workspace ios/App/App.xcworkspace \
+            -scheme App \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            clean build 2>&1 | tee xcodebuild.log | tail -n 40
+
+      - name: Đóng gói IPA
+        run: |
+          APP="build/Build/Products/Release-iphoneos/App.app"
+          test -d "$APP"
+          rm -rf Payload CaMauPortal-unsigned.ipa
+          mkdir Payload
+          cp -R "$APP" Payload/
+          zip -qry CaMauPortal-unsigned.ipa Payload
+          ls -la CaMauPortal-unsigned.ipa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CaMauPortal-ipa
+          path: CaMauPortal-unsigned.ipa
+          if-no-files-found: error
+
+      - name: Lưu log build khi lỗi
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcodebuild-log
+          path: xcodebuild.log
+
+      - name: Đính IPA vào bản phát hành (khi đẩy tag)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: CaMauPortal-unsigned.ipa
