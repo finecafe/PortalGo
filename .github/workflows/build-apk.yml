@@ -1,0 +1,96 @@
+name: Build APK
+
+# Chạy tay: Actions -> Build APK -> Run workflow. Hoặc đẩy tag dạng v1.0.0 để tự tạo bản phát hành kèm APK.
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write   # để đính APK vào bản phát hành khi đẩy tag
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    env:
+      # Có đủ 4 secret ký thì mới build bản release ký sẵn (xem README mục 5)
+      HAS_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' && secrets.ANDROID_KEYSTORE_PASSWORD != '' && secrets.ANDROID_KEY_ALIAS != '' && secrets.ANDROID_KEY_PASSWORD != '' }}
+      # App đọc dữ liệu mới từ GitHub Pages của repo này
+      CMP_REMOTE_BASE: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: android-actions/setup-android@v3
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+
+      - name: Cài thư viện và gom file web
+        run: |
+          npm ci
+          npm run build:www
+
+      - name: Tạo dự án Android + icon từ logo
+        run: |
+          npx cap add android
+          python3 tools/android_icons.py android
+          npx cap sync android
+          # versionCode tăng theo số lần chạy để cài đè được lên bản cũ
+          sed -i "s/versionCode 1/versionCode ${{ github.run_number }}/" android/app/build.gradle
+
+      - name: Build APK (debug - cài thẳng vào điện thoại được)
+        working-directory: android
+        run: ./gradlew assembleDebug --no-daemon
+
+      - name: Đổi tên APK debug
+        run: cp android/app/build/outputs/apk/debug/app-debug.apk CaMauPortal-debug.apk
+
+      - name: Build bản release ký sẵn (APK + AAB cho Google Play)
+        if: env.HAS_KEYSTORE == 'true'
+        working-directory: android
+        env:
+          KS_PASS: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASS: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 -d > "$RUNNER_TEMP/release.jks"
+          ./gradlew assembleRelease bundleRelease --no-daemon
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          "$BT/zipalign" -f -p 4 app/build/outputs/apk/release/app-release-unsigned.apk "$RUNNER_TEMP/aligned.apk"
+          "$BT/apksigner" sign --ks "$RUNNER_TEMP/release.jks" --ks-key-alias "$KEY_ALIAS" \
+            --ks-pass env:KS_PASS --key-pass env:KEY_PASS \
+            --out "$GITHUB_WORKSPACE/CaMauPortal-release.apk" "$RUNNER_TEMP/aligned.apk"
+          "$BT/apksigner" verify "$GITHUB_WORKSPACE/CaMauPortal-release.apk"
+          jarsigner -keystore "$RUNNER_TEMP/release.jks" -storepass "$KS_PASS" -keypass "$KEY_PASS" \
+            -signedjar "$GITHUB_WORKSPACE/CaMauPortal-release.aab" app/build/outputs/bundle/release/app-release.aab "$KEY_ALIAS"
+          rm -f "$RUNNER_TEMP/release.jks"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CaMauPortal-apk
+          path: |
+            CaMauPortal-debug.apk
+            CaMauPortal-release.apk
+            CaMauPortal-release.aab
+          if-no-files-found: error
+
+      - name: Đính APK vào bản phát hành (khi đẩy tag)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            CaMauPortal-debug.apk
+            CaMauPortal-release.apk
+            CaMauPortal-release.aab
