@@ -1,42 +1,179 @@
 {
-  "updatedAt": "2026-11-19T15:25:00+07:00",
+  "updatedAt": "2026-11-20T01:41:54.976Z",
   "source": "https://camau.gov.vn/media",
   "categories": [
-    { "id": "moi-nhat", "name": "Mới nhất", "icon": "flame" },
-    { "id": "giao-tiep-cong-dan", "name": "Giao tiếp công dân", "icon": "chat" },
-    { "id": "chuyen-doi-so", "name": "Chuyển đổi số", "icon": "chip" },
-    { "id": "ocop", "name": "Sản phẩm OCOP", "icon": "bag" },
-    { "id": "ngay-van-hoa", "name": "Ngày Văn hóa Việt Nam 24/11", "icon": "star" },
-    { "id": "dai-hoi-dang-bo", "name": "Đại hội Đảng bộ tỉnh lần I (2025–2030)", "icon": "flag" },
-    { "id": "bau-cu", "name": "Bầu cử", "icon": "vote" }
+    {
+      "id": "moi-nhat",
+      "name": "Mới nhất",
+      "icon": "flame"
+    },
+    {
+      "id": "giao-tiep-cong-dan",
+      "name": "Giao tiếp công dân",
+      "icon": "chat"
+    },
+    {
+      "id": "chuyen-doi-so",
+      "name": "Chuyển đổi số",
+      "icon": "chip"
+    },
+    {
+      "id": "ocop",
+      "name": "Sản phẩm OCOP",
+      "icon": "bag"
+    },
+    {
+      "id": "ngay-van-hoa",
+      "name": "Ngày Văn hóa Việt Nam 24/11",
+      "icon": "star"
+    },
+    {
+      "id": "dai-hoi-dang-bo",
+      "name": "Đại hội Đảng bộ tỉnh lần I (2025–2030)",
+      "icon": "flag"
+    },
+    {
+      "id": "bau-cu",
+      "name": "Bầu cử",
+      "icon": "vote"
+    },
+    {
+      "id": "dai-hoi-dai-bieu-dang-bo-tinh-lan-thu-i-nhiem-ky",
+      "name": "ĐẠI HỘI ĐẠI BIỂU ĐẢNG BỘ TỈNH LẦN THỨ I, NHIỆM KỲ 2025 – 2030",
+      "icon": "play"
+    },
+    {
+      "id": "chao-mung-ngay-van-hoa-viet-nam-24-11",
+      "name": "CHÀO MỪNG NGÀY VĂN HÓA VIỆT NAM 24/11",
+      "icon": "play"
+    }
   ],
   "videos": [
-    { "id": "XTpd7UEKtkw", "title": "Cà Mau họp mặt kỷ niệm 44 năm Ngày Nhà giáo Việt Nam 20/11", "date": "2026-11-18", "category": "moi-nhat" },
-    { "id": "5qbSOV8xB4A", "title": "Chương trình ký cam kết tài trợ Quỹ Khuyến tài Đất Mũi", "date": "2026-11-17", "category": "moi-nhat" },
-    { "id": "_F9v-_Tn8SA", "title": "Sẵn sàng chuỗi hoạt động Festival Tôm Cà Mau - Lần thứ II năm 2026", "date": "2026-11-17", "category": "moi-nhat" },
-
-    { "id": "iGFrakMnijY", "title": "TRAILER TRIỂN LÃM OCOP VÀ ĐẶC SẢN VÙNG MIỀN", "date": "2026-10-28", "category": "ngay-van-hoa" },
-    { "id": "1C3sgb3AN8E", "title": "TRAILER NGÀY VĂN HÓA VIỆT NAM", "date": "2026-10-28", "category": "ngay-van-hoa" },
-    { "id": "gBeaR4-x9Ek", "title": "TRAILER NÂNG TẦM TÔM SINH THÁI VÀ TÔM LÚA", "date": "2026-10-28", "category": "ngay-van-hoa" },
-
-    { "id": "5EBEGUiHMtQ", "title": "ĐƯA CÔNG NGHỆ VÀO CUỘC SỐNG", "date": "2026-10-26", "category": "chuyen-doi-so" },
-    { "id": "3q4Kr8__4bY", "title": "ĐỔI MỚI CÁCH DẠY, CÁCH HỌC", "date": "2026-10-26", "category": "chuyen-doi-so" },
-    { "id": "MsqAka0hsTs", "title": "GỠ ĐIỂM NGHẼN - NÂNG CAO HIỆU QUẢ PHỤC VỤ NGƯỜI DÂN", "date": "2026-10-26", "category": "chuyen-doi-so" },
-
-    { "id": "61M8h5cCVj8", "title": "TRỰC TIẾP DÂN HỎI - LÃNH ĐẠO CƠ QUAN NHÀ NƯỚC TRẢ LỜI: XÃ, PHƯỜNG AN TOÀN KHU - TỰ HÀO LỊCH SỬ, VỮNG BƯỚC TƯƠNG LAI", "date": "2026-01-29", "category": "giao-tiep-cong-dan" },
-    { "id": "1tKdU5lAOrc", "title": "TRỰC TIẾP DÂN HỎI - LÃNH ĐẠO CƠ QUAN NHÀ NƯỚC TRẢ LỜI: CẢI CÁCH HÀNH CHÍNH - CHUYỂN ĐỔI SỐ, ĐỘNG LỰC CHO PHÁT TRIỂN BỀN VỮNG", "date": "2026-01-05", "category": "giao-tiep-cong-dan" },
-    { "id": "VWyg2j4BNCU", "title": "DÂN HỎI - LÃNH ĐẠO CƠ QUAN NHÀ NƯỚC TRẢ LỜI: CUA CÀ MAU HƯƠNG RỪNG - VỊ BIỂN.", "date": "2025-11-10", "category": "giao-tiep-cong-dan" },
-
-    { "id": "GeJzWqUd6AI", "title": "Tỉnh ủy Cà Mau tổng kết Đại hội đại biểu Đảng bộ tỉnh Cà Mau lần thứ I, nhiệm kỳ 2025 - 2030", "date": "2025-10-31", "category": "dai-hoi-dang-bo" },
-    { "id": "GJ_QVgs9lec", "title": "Đại hội đại biểu Đảng bộ tỉnh Cà Mau lần thứ I, nhiệm kỳ 2025 - 2030 thành công tốt đẹp", "date": "2025-10-18", "category": "dai-hoi-dang-bo" },
-    { "id": "X5gBK6_3DoM", "title": "Đồng chí Nguyễn Hồ Hải giữ chức Bí thư Tỉnh ủy Cà Mau Khóa I, nhiệm kỳ 2025 - 2030", "date": "2025-10-17", "category": "dai-hoi-dang-bo" },
-
-    { "id": "fe7x_JI-I7I", "title": "Bầu cử đại biểu Quốc hội khóa XVI và HĐND các cấp thành công: Củng cố niềm tin Nhân dân, tạo động lực phát triển", "date": "2026-04-01", "category": "bau-cu" },
-    { "id": "fZmvODPotx0", "title": "Cà Mau: 99,94% cử tri tham gia bỏ phiếu bầu cử đại biểu Quốc hội và HĐND các cấp", "date": "2026-03-20", "category": "bau-cu" },
-    { "id": "FdGB0vq5flw", "title": "Ban Chỉ đạo bầu cử tỉnh họp rà soát, đánh giá tình hình trong ngày bầu cử", "date": "2026-03-16", "category": "bau-cu" },
-
-    { "id": "JnmdBp7LQHI", "title": "BÁNH TRÁNG MỰC SỮA - SẢN PHẨM OCOP 3 SAO", "date": "2025-04-29", "category": "ocop" },
-    { "id": "gOl1B9iG7XY", "title": "Sản phẩm OCOP 3 sao mắm tôm chua Ánh Kua", "date": "2025-04-11", "category": "ocop" },
-    { "id": "7z8otuFR_zw", "title": "HỘI NGHỊ KẾT NỐI XÚC TIẾN THƯƠNG MẠI SẢN PHẨM NÔNG, THỦY SẢN TỈNH CÀ MAU NĂM 2024", "date": "2025-02-10", "category": "ocop" }
+    {
+      "id": "XTpd7UEKtkw",
+      "title": "Cà Mau họp mặt kỷ niệm 44 năm Ngày Nhà giáo Việt Nam 20/11",
+      "date": "2026-11-18",
+      "category": "moi-nhat"
+    },
+    {
+      "id": "5qbSOV8xB4A",
+      "title": "Chương trình ký cam kết tài trợ Quỹ Khuyến tài Đất Mũi",
+      "date": "2026-11-17",
+      "category": "moi-nhat"
+    },
+    {
+      "id": "_F9v-_Tn8SA",
+      "title": "Sẵn sàng chuỗi hoạt động Festival Tôm Cà Mau - Lần thứ II năm 2026",
+      "date": "2026-11-17",
+      "category": "moi-nhat"
+    },
+    {
+      "id": "iGFrakMnijY",
+      "title": "TRAILER TRIỂN LÃM OCOP VÀ ĐẶC SẢN VÙNG MIỀN",
+      "date": "2026-10-28",
+      "category": "ngay-van-hoa"
+    },
+    {
+      "id": "1C3sgb3AN8E",
+      "title": "TRAILER NGÀY VĂN HÓA VIỆT NAM",
+      "date": "2026-10-28",
+      "category": "ngay-van-hoa"
+    },
+    {
+      "id": "gBeaR4-x9Ek",
+      "title": "TRAILER NÂNG TẦM TÔM SINH THÁI VÀ TÔM LÚA",
+      "date": "2026-10-28",
+      "category": "ngay-van-hoa"
+    },
+    {
+      "id": "5EBEGUiHMtQ",
+      "title": "ĐƯA CÔNG NGHỆ VÀO CUỘC SỐNG",
+      "date": "2026-10-26",
+      "category": "chuyen-doi-so"
+    },
+    {
+      "id": "3q4Kr8__4bY",
+      "title": "ĐỔI MỚI CÁCH DẠY, CÁCH HỌC",
+      "date": "2026-10-26",
+      "category": "chuyen-doi-so"
+    },
+    {
+      "id": "MsqAka0hsTs",
+      "title": "GỠ ĐIỂM NGHẼN - NÂNG CAO HIỆU QUẢ PHỤC VỤ NGƯỜI DÂN",
+      "date": "2026-10-26",
+      "category": "chuyen-doi-so"
+    },
+    {
+      "id": "fe7x_JI-I7I",
+      "title": "Bầu cử đại biểu Quốc hội khóa XVI và HĐND các cấp thành công: Củng cố niềm tin Nhân dân, tạo động lực phát triển",
+      "date": "2026-04-01",
+      "category": "bau-cu"
+    },
+    {
+      "id": "fZmvODPotx0",
+      "title": "Cà Mau: 99,94% cử tri tham gia bỏ phiếu bầu cử đại biểu Quốc hội và HĐND các cấp",
+      "date": "2026-03-20",
+      "category": "bau-cu"
+    },
+    {
+      "id": "FdGB0vq5flw",
+      "title": "Ban Chỉ đạo bầu cử tỉnh họp rà soát, đánh giá tình hình trong ngày bầu cử",
+      "date": "2026-03-16",
+      "category": "bau-cu"
+    },
+    {
+      "id": "61M8h5cCVj8",
+      "title": "TRỰC TIẾP DÂN HỎI - LÃNH ĐẠO CƠ QUAN NHÀ NƯỚC TRẢ LỜI: XÃ, PHƯỜNG AN TOÀN KHU - TỰ HÀO LỊCH SỬ, VỮNG BƯỚC TƯƠNG LAI",
+      "date": "2026-01-29",
+      "category": "giao-tiep-cong-dan"
+    },
+    {
+      "id": "1tKdU5lAOrc",
+      "title": "TRỰC TIẾP DÂN HỎI - LÃNH ĐẠO CƠ QUAN NHÀ NƯỚC TRẢ LỜI: CẢI CÁCH HÀNH CHÍNH - CHUYỂN ĐỔI SỐ, ĐỘNG LỰC CHO PHÁT TRIỂN BỀN VỮNG",
+      "date": "2026-01-05",
+      "category": "giao-tiep-cong-dan"
+    },
+    {
+      "id": "VWyg2j4BNCU",
+      "title": "DÂN HỎI - LÃNH ĐẠO CƠ QUAN NHÀ NƯỚC TRẢ LỜI: CUA CÀ MAU HƯƠNG RỪNG - VỊ BIỂN.",
+      "date": "2025-11-10",
+      "category": "giao-tiep-cong-dan"
+    },
+    {
+      "id": "GeJzWqUd6AI",
+      "title": "Tỉnh ủy Cà Mau tổng kết Đại hội đại biểu Đảng bộ tỉnh Cà Mau lần thứ I, nhiệm kỳ 2025 - 2030",
+      "date": "2025-10-31",
+      "category": "dai-hoi-dang-bo"
+    },
+    {
+      "id": "GJ_QVgs9lec",
+      "title": "Đại hội đại biểu Đảng bộ tỉnh Cà Mau lần thứ I, nhiệm kỳ 2025 - 2030 thành công tốt đẹp",
+      "date": "2025-10-18",
+      "category": "dai-hoi-dang-bo"
+    },
+    {
+      "id": "X5gBK6_3DoM",
+      "title": "Đồng chí Nguyễn Hồ Hải giữ chức Bí thư Tỉnh ủy Cà Mau Khóa I, nhiệm kỳ 2025 - 2030",
+      "date": "2025-10-17",
+      "category": "dai-hoi-dang-bo"
+    },
+    {
+      "id": "JnmdBp7LQHI",
+      "title": "BÁNH TRÁNG MỰC SỮA - SẢN PHẨM OCOP 3 SAO",
+      "date": "2025-04-29",
+      "category": "ocop"
+    },
+    {
+      "id": "gOl1B9iG7XY",
+      "title": "Sản phẩm OCOP 3 sao mắm tôm chua Ánh Kua",
+      "date": "2025-04-11",
+      "category": "ocop"
+    },
+    {
+      "id": "7z8otuFR_zw",
+      "title": "HỘI NGHỊ KẾT NỐI XÚC TIẾN THƯƠNG MẠI SẢN PHẨM NÔNG, THỦY SẢN TỈNH CÀ MAU NĂM 2024",
+      "date": "2025-02-10",
+      "category": "ocop"
+    }
   ]
 }
