@@ -273,7 +273,13 @@
     const related = sortNew(DATA.videos.filter((x) => x.id !== id && x.category === v.category));
     const more = sortNew(DATA.videos.filter((x) => x.id !== id && x.category !== v.category));
     const next = [...related, ...more].slice(0, 12);
-    const src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&playsinline=1&rel=0&modestbranding=1`;
+    // App iOS (Capacitor) chạy ở địa chỉ capacitor:// nên YouTube hay từ chối trình phát nhúng.
+    // Khi đó nhúng trang player.html đặt trên GitHub Pages (có địa chỉ https hợp lệ).
+    const cap = window.Capacitor;
+    const isNativeIos = !!(cap && typeof cap.getPlatform === 'function' && cap.getPlatform() === 'ios');
+    const src = (isNativeIos && window.CMP_REMOTE_BASE)
+      ? `${window.CMP_REMOTE_BASE}player.html?v=${encodeURIComponent(id)}`
+      : `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&playsinline=1&rel=0&modestbranding=1`;
     const ytUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(id)}`;
 
     view.innerHTML = `
