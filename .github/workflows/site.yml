@@ -1,0 +1,70 @@
+name: Cập nhật dữ liệu và đăng web
+
+# - Mỗi ngày 06:00 (giờ Việt Nam) lấy video/tin/du lịch mới từ camau.gov.vn, ghi vào repo rồi đăng lại GitHub Pages.
+# - Cũng chạy khi bạn đẩy code lên nhánh main, hoặc bấm tay: Actions -> tên workflow này -> Run workflow.
+on:
+  schedule:
+    - cron: '0 23 * * *'   # 23:00 UTC = 06:00 giờ Việt Nam
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  update:
+    # Khi đẩy code thì không cần cập nhật dữ liệu, chỉ đăng lại
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Cập nhật video
+        run: node tools/update_videos.mjs || echo "::warning::Không cập nhật được video (cấu trúc trang có thể đã đổi) - giữ dữ liệu cũ."
+
+      - name: Cập nhật tin tức và du lịch
+        run: node tools/update_news.mjs || echo "::warning::Không cập nhật được tin tức/du lịch - giữ dữ liệu cũ."
+
+      - name: Ghi thay đổi vào repo
+        run: |
+          if git diff --quiet -- data; then
+            echo "Không có dữ liệu mới."
+          else
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data
+            git commit -m "Cập nhật dữ liệu tự động $(date -u +%F)"
+            git push
+          fi
+
+  deploy:
+    needs: update
+    if: ${{ !cancelled() && (needs.update.result == 'success' || needs.update.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}   # lấy bản mới nhất, gồm cả dữ liệu vừa commit
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node tools/build_www.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: www
+      - id: deployment
+        uses: actions/deploy-pages@v4
