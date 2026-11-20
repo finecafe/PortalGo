@@ -30,7 +30,7 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - uses: android-actions/setup-android@v3
+      # Android SDK đã có sẵn trên máy chạy ubuntu-latest (ANDROID_HOME), không cần cài thêm
 
       - uses: actions/setup-python@v5
         with:
