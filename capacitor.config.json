@@ -1,0 +1,12 @@
+{
+  "appId": "vn.gov.camau.portal",
+  "appName": "Cà Mau Portal",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "hostname": "camau-portal.app"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}
