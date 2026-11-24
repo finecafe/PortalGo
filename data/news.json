@@ -1,7 +1,27 @@
 {
-  "updatedAt": "2026-11-23T03:29:40.234Z",
+  "updatedAt": "2026-11-24T06:43:41.789Z",
   "source": "https://camau.gov.vn",
   "news": [
+    {
+      "id": "308162",
+      "title": "Tháng hành động quốc gia phòng, chống HIV/AIDS năm 2026 diễn ra từ ngày 10/11 đến ngày 10/12/2026, với chủ đề “Huy động sức mạnh cộng đồng - Chung tay hành động vì mục tiêu chấm dứt dịch bệnh AIDS”.",
+      "summary": "Tháng hành động quốc gia phòng, chống HIV/AIDS năm 2026 diễn ra từ ngày 10/11 đến ngày 10/12/2026, với chủ đề “Huy động sức mạnh cộng đồng - Chung tay hành động vì mục tiêu chấm dứt dịch bệnh AIDS”.",
+      "image": "http://camau.gov.vn/",
+      "date": "2026-12-10T00:00",
+      "cat": "tin-van",
+      "catName": "",
+      "url": "https://camau.gov.vn/tin-van/thang-hanh-dong-quoc-gia-phong-chong-hiv-aids-nam-2026-dien-ra-tu-ngay-10-11-den-ngay-10-12-2026-308162"
+    },
+    {
+      "id": "308161",
+      "title": "Sở Văn hóa, Thể thao và Du lịch thành phố Đà Nẵng phát động khảo sát, tiếp nhận ý tưởng, sáng kiến và giải pháp nhằm định vị thương hiệu, quảng bá hình ảnh thành phố Đà Nẵng ra quốc tế. Thời gian tiếp nhận ý kiến đến 17 giờ ngày 30/11/2026.",
+      "summary": "Sở Văn hóa, Thể thao và Du lịch thành phố Đà Nẵng phát động khảo sát, tiếp nhận ý tưởng, sáng kiến và giải pháp nhằm định vị thương hiệu, quảng bá hình ảnh thành phố Đà Nẵng ra quốc tế. Thời gian tiếp nhận ý kiến đến 17 giờ ngày 30/11/2026.",
+      "image": "http://camau.gov.vn/",
+      "date": "2026-11-30T00:00",
+      "cat": "tin-van",
+      "catName": "",
+      "url": "https://camau.gov.vn/tin-van/so-van-hoa-the-thao-va-du-lich-thanh-pho-da-nang-phat-dong-khao-sat-tiep-nhan-y-tuong-sang-kien--308161"
+    },
     {
       "id": "308057",
       "title": "Chủ động ứng phó đợt triều cường mạnh từ ngày 20 đến 30/11/2026",
@@ -33,6 +53,26 @@
       "url": "https://camau.gov.vn/tin-tuc-su-kien/dai-bieu-quoc-hoi-tinh-ca-mau-tiep-cong-dan-vao-ngay-26-11-2026-307788"
     },
     {
+      "id": "308168",
+      "title": "Khai mạc Liên hoan Đờn ca tài tử Nam Bộ tỉnh Cà Mau lần thứ II",
+      "summary": "Tối 23/11, tại Khu lưu niệm nghệ thuật Đờn ca tài tử Nam Bộ và nhạc sĩ Cao Văn Lầu, phường Bạc Liêu, khai mạc Liên hoan Đờn ca tài tử Nam Bộ tỉnh Cà Mau lần thứ II năm 2026. Liên hoan quy tụ 263 nghệ nhân, tài tử, tạo dịp giao lưu, trao đổi kinh nghiệm và gìn giữ nghệ thuật truyền thống.",
+      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/DSC08824_wm.639311185383139740.jpg",
+      "date": "2026-11-24T12:05",
+      "cat": "van-hoa-xa-hoi",
+      "catName": "Văn hóa – Xã hội",
+      "url": "https://camau.gov.vn/van-hoa-xa-hoi/khai-mac-lien-hoan-don-ca-tai-tu-nam-bo-tinh-ca-mau-lan-thu-ii-308168"
+    },
+    {
+      "id": "308166",
+      "title": "Phó Chủ tịch UBND tỉnh Lê Văn Sử tham quan các gian hàng tại Festival Tôm Cà Mau",
+      "summary": "Tối 23/11, Phó Chủ tịch UBND tỉnh Lê Văn Sử cùng đoàn công tác tham quan các không gian trưng bày, quảng bá tại Festival Tôm Cà Mau lần thứ II năm 2026. Phó Chủ tịch UBND tỉnh đề nghị nâng cao chất lượng hoạt động, tạo điều kiện để doanh nghiệp, cơ sở sản xuất kết nối với đối tác và người tiêu dùng.",
+      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/DSC02121_wm.639311174216566642.jpg",
+      "date": "2026-11-24T11:47",
+      "cat": "kinh-te",
+      "catName": "Kinh tế",
+      "url": "https://camau.gov.vn/kinh-te/pho-chu-tich-ubnd-tinh-le-van-su-tham-quan-cac-gian-hang-tai-festival-tom-ca-mau-308166"
+    },
+    {
       "id": "307946",
       "title": "Từ ngày 17 đến 24/11/2026, tỉnh Nghệ An tổ chức Tuần Văn hóa - Đại đoàn kết các dân tộc năm 2026 tại nhiều không gian văn hóa, công cộng của đô thị Vinh. Chương trình gồm các hoạt động văn hóa, nghệ thuật, giới thiệu di sản, du lịch và trải nghiệm cộng đồng.",
       "summary": "Từ ngày 17 đến 24/11/2026, tỉnh Nghệ An tổ chức Tuần Văn hóa - Đại đoàn kết các dân tộc năm 2026 tại nhiều không gian văn hóa, công cộng của đô thị Vinh. Chương trình gồm các hoạt động văn hóa, nghệ thuật, giới thiệu di sản, du lịch và trải nghiệm cộng đồng.",
@@ -41,6 +81,86 @@
       "cat": "tin-van",
       "catName": "",
       "url": "https://camau.gov.vn/tin-van/tu-ngay-17-den-24-11-2026-tinh-nghe-an-to-chuc-tuan-van-hoa-dai-doan-ket-cac-dan-toc-nam-2026-ta-307946"
+    },
+    {
+      "id": "308163",
+      "title": "UBND tỉnh vừa có báo cáo gửi Hội đồng nhân dân tỉnh về kết quả giải quyết kiến nghị của cử tri tại Kỳ họp thứ 4 (kỳ họp giữa năm 2026), HĐND tỉnh khóa XI.",
+      "summary": "UBND tỉnh vừa có báo cáo gửi Hội đồng nhân dân tỉnh về kết quả giải quyết kiến nghị của cử tri tại Kỳ họp thứ 4 (kỳ họp giữa năm 2026), HĐND tỉnh khóa XI.",
+      "image": "http://camau.gov.vn/",
+      "date": "2026-11-23T22:57",
+      "cat": "tin-van",
+      "catName": "",
+      "url": "https://camau.gov.vn/tin-van/ubnd-tinh-vua-co-bao-cao-gui-hoi-dong-nhan-dan-tinh-ve-ket-qua-giai-quyet-kien-nghi-cua-cu-tri-t-308163"
+    },
+    {
+      "id": "308160",
+      "title": "Trung tâm Phát triển quỹ đất tỉnh đã có thông báo cho thuê 46 cơ sở nhà, đất tại các phường An Xuyên, Vĩnh Trạch, Tân Thành, Bạc Liêu, Hiệp Thành, Giá Rai, Láng Tròn theo phương thức chào giá cạnh tranh và niên yết giá.",
+      "summary": "Trung tâm Phát triển quỹ đất tỉnh đã có thông báo cho thuê 46 cơ sở nhà, đất tại các phường An Xuyên, Vĩnh Trạch, Tân Thành, Bạc Liêu, Hiệp Thành, Giá Rai, Láng Tròn theo phương thức chào giá cạnh tranh và niên yết giá.",
+      "image": "http://camau.gov.vn/",
+      "date": "2026-11-23T22:56",
+      "cat": "tin-van",
+      "catName": "",
+      "url": "https://camau.gov.vn/tin-van/trung-tam-phat-trien-quy-dat-tinh-da-co-thong-bao-cho-thue-46-co-so-nha-dat-tai-cac-phuong-an-xu-308160"
+    },
+    {
+      "id": "308159",
+      "title": "Sở Tài chính đã ban hành Thông báo công bố rộng rãi thông tin danh mục dự án kêu gọi đầu tư trên địa bàn tỉnh; trong đó, kêu gọi đầu tư Dự án Khu nuôi trồng thủy sản công nghệ cao tập trung tại khu vực bãi bồi ven biển tỉnh Cà Mau.",
+      "summary": "Sở Tài chính đã ban hành Thông báo công bố rộng rãi thông tin danh mục dự án kêu gọi đầu tư trên địa bàn tỉnh; trong đó, kêu gọi đầu tư Dự án Khu nuôi trồng thủy sản công nghệ cao tập trung tại khu vực bãi bồi ven biển tỉnh Cà Mau.",
+      "image": "http://camau.gov.vn/",
+      "date": "2026-11-23T22:56",
+      "cat": "tin-van",
+      "catName": "",
+      "url": "https://camau.gov.vn/tin-van/so-tai-chinh-da-ban-hanh-thong-bao-cong-bo-rong-rai-thong-tin-danh-muc-du-an-keu-goi-dau-tu-tren-308159"
+    },
+    {
+      "id": "308158",
+      "title": "Chủ tịch UBND tỉnh vừa chỉ đạo tăng cường ngăn ngừa, xử lý hoạt động tuyển chọn, thu tiền trái phép trong lĩnh vực đưa người lao động đi làm việc ở nước ngoài theo hợp đồng.",
+      "summary": "Chủ tịch UBND tỉnh vừa chỉ đạo tăng cường ngăn ngừa, xử lý hoạt động tuyển chọn, thu tiền trái phép trong lĩnh vực đưa người lao động đi làm việc ở nước ngoài theo hợp đồng.",
+      "image": "http://camau.gov.vn/",
+      "date": "2026-11-23T22:56",
+      "cat": "tin-van",
+      "catName": "",
+      "url": "https://camau.gov.vn/tin-van/chu-tich-ubnd-tinh-vua-chi-dao-tang-cuong-ngan-ngua-xu-ly-hoat-dong-tuyen-chon-thu-tien-trai-phe-308158"
+    },
+    {
+      "id": "308157",
+      "title": "Chủ tịch UBND tỉnh chỉ đạo triển khai công tác phòng, chống rửa tiền, tài trợ khủng bố và tài trợ phổ biến vũ khí hủy diệt hàng loạt đối với các hội, quỹ trên địa bàn tỉnh.",
+      "summary": "Chủ tịch UBND tỉnh chỉ đạo triển khai công tác phòng, chống rửa tiền, tài trợ khủng bố và tài trợ phổ biến vũ khí hủy diệt hàng loạt đối với các hội, quỹ trên địa bàn tỉnh.",
+      "image": "http://camau.gov.vn/",
+      "date": "2026-11-23T22:55",
+      "cat": "tin-van",
+      "catName": "",
+      "url": "https://camau.gov.vn/tin-van/chu-tich-ubnd-tinh-chi-dao-trien-khai-cong-tac-phong-chong-rua-tien-tai-tro-khung-bo-va-tai-tro--308157"
+    },
+    {
+      "id": "308156",
+      "title": "Chủ tịch UBND tỉnh chỉ đạo tiếp nhận đề xuất đặt hàng nhiệm vụ thuộc hai Chương trình khoa học, công nghệ và đổi mới sáng tạo giai đoạn 2026 - 2030: “Phát triển sản phẩm chủ lực của tỉnh Cà Mau” và “Ứng dụng khoa học và công nghệ vào sản xuất để giảm phát thải trên địa bàn tỉnh Cà Mau”.",
+      "summary": "Chủ tịch UBND tỉnh chỉ đạo tiếp nhận đề xuất đặt hàng nhiệm vụ thuộc hai Chương trình khoa học, công nghệ và đổi mới sáng tạo giai đoạn 2026 - 2030: “Phát triển sản phẩm chủ lực của tỉnh Cà Mau” và “Ứng dụng khoa học và công nghệ vào sản xuất để giảm phát thải trên địa bàn tỉnh Cà Mau”.",
+      "image": "http://camau.gov.vn/",
+      "date": "2026-11-23T22:55",
+      "cat": "tin-van",
+      "catName": "",
+      "url": "https://camau.gov.vn/tin-van/chu-tich-ubnd-tinh-chi-dao-tiep-nhan-de-xuat-dat-hang-nhiem-vu-thuoc-hai-chuong-trinh-khoa-hoc-c-308156"
+    },
+    {
+      "id": "308154",
+      "title": "Họp mặt kỷ niệm 80 năm ngày Thành lập Hội Chữ thập đỏ Việt Nam",
+      "summary": "Ngày 23/11, Hội Chữ thập đỏ tỉnh Cà Mau tổ chức họp mặt kỷ niệm 80 năm thành lập Hội Chữ thập đỏ Việt Nam (23/11/1946 – 23/11/2026). Phó Bí thư Tỉnh ủy, Chủ tịch Ủy ban MTTQ Việt Nam tỉnh Hồ Thanh Thủy tham dự, đề nghị các cấp Hội đổi mới phương thức hoạt động, lấy người cần trợ giúp làm trung tâm.",
+      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/HMCTD_wm.639310584337931736.jpg",
+      "date": "2026-11-23T19:25",
+      "cat": "van-hoa-xa-hoi",
+      "catName": "Văn hóa – Xã hội",
+      "url": "https://camau.gov.vn/van-hoa-xa-hoi/hop-mat-ky-niem-80-nam-ngay-thanh-lap-hoi-chu-thap-do-viet-nam-308154"
+    },
+    {
+      "id": "308155",
+      "title": "Bảo vệ, phát huy giá trị nghệ thuật Đờn ca tài tử Nam Bộ",
+      "summary": "Cà Mau triển khai Đề án quản lý, bảo vệ và phát huy giá trị di sản văn hóa phi vật thể Nghệ thuật Đờn ca tài tử Nam Bộ trên địa bàn tỉnh năm 2026. Các nhiệm vụ tập trung củng cố hoạt động câu lạc bộ, hỗ trợ nghệ nhân, tổ chức truyền dạy và bồi dưỡng lực lượng kế cận.",
+      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/42_wm.639310588499656687.jpg",
+      "date": "2026-11-23T14:00",
+      "cat": "van-hoa-xa-hoi",
+      "catName": "Văn hóa – Xã hội",
+      "url": "https://camau.gov.vn/van-hoa-xa-hoi/bao-ve-phat-huy-gia-tri-nghe-thuat-don-ca-tai-tu-nam-bo-308155"
     },
     {
       "id": "308126",
@@ -61,6 +181,36 @@
       "cat": "van-hoa-xa-hoi",
       "catName": "Văn hóa – Xã hội",
       "url": "https://camau.gov.vn/van-hoa-xa-hoi/moi-tham-gia-hien-ke-y-tuong-quang-ba-hinh-anh-thanh-pho-da-nang-ra-the-gioi-308125"
+    },
+    {
+      "id": "308153",
+      "title": "Sôi nổi các trò chơi dân gian gắn với con tôm Cà Mau",
+      "summary": "Trong hai ngày 21 và 22/11, Tỉnh đoàn Cà Mau tổ chức các trò chơi dân gian gắn với chủ đề con tôm trong khuôn khổ Festival Tôm Cà Mau lần thứ II năm 2026. Hoạt động thu hút đông đảo cán bộ, công chức, viên chức, người dân và du khách tham gia, tạo không khí vui tươi, gắn kết cộng đồng.",
+      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/1795275089318_2826503395258866553_2826503395258866553_b47c30abe5e40906fe180f20aea0bab8_wm.639310579435030415.jpg",
+      "date": "2026-11-23T09:00",
+      "cat": "van-hoa-xa-hoi",
+      "catName": "Văn hóa – Xã hội",
+      "url": "https://camau.gov.vn/van-hoa-xa-hoi/soi-noi-cac-tro-choi-dan-gian-gan-voi-con-tom-ca-mau-308153"
+    },
+    {
+      "id": "308152",
+      "title": "Đặc sắc Đêm hội văn hóa các dân tộc tỉnh Cà Mau",
+      "summary": "Tối 22/11, tỉnh Cà Mau tổ chức Đêm hội văn hóa các dân tộc với chủ đề “Bừng sáng bản sắc văn hóa”, chào mừng Ngày Văn hóa Việt Nam (24/11) và Festival Tôm Cà Mau lần thứ II năm 2026. Chương trình tôn vinh giá trị văn hóa truyền thống, tinh thần đoàn kết của cộng đồng các dân tộc Kinh – Hoa – Khmer.",
+      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/23 1_wm.639310575568093775.jpg",
+      "date": "2026-11-23T08:00",
+      "cat": "van-hoa-xa-hoi",
+      "catName": "Văn hóa – Xã hội",
+      "url": "https://camau.gov.vn/van-hoa-xa-hoi/dac-sac-dem-hoi-van-hoa-cac-dan-toc-tinh-ca-mau-308152"
+    },
+    {
+      "id": "308151",
+      "title": "Kết nối cung – cầu, thúc đẩy phát triển bền vững ngành tôm Cà Mau",
+      "summary": "Chiều 22/11, UBND tỉnh Cà Mau phối hợp với Hội Thủy sản Việt Nam tổ chức Hội nghị kết nối cung – cầu ngành thủy sản năm 2026. Hội nghị thu hút 60 doanh nghiệp tham gia giao thương, trong đó 28 doanh nghiệp đạt cam kết hợp tác bước đầu, 16 doanh nghiệp trực tiếp ký kết tại hội nghị.",
+      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/1795345074502_6654554700793577497_6654554700793577497_78d6fe720f1f147d3bd9d087605305e2_wm.639310566887648653.jpg",
+      "date": "2026-11-22T18:53",
+      "cat": "kinh-te",
+      "catName": "Kinh tế",
+      "url": "https://camau.gov.vn/kinh-te/ket-noi-cung-cau-thuc-day-phat-trien-ben-vung-nganh-tom-ca-mau-308151"
     },
     {
       "id": "308111",
