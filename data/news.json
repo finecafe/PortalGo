@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T04:45:01.986Z",
+  "updatedAt": "2026-11-28T04:29:44.808Z",
   "source": "https://camau.gov.vn",
   "news": [
     {
@@ -41,6 +41,46 @@
       "cat": "tin-van",
       "catName": "",
       "url": "https://camau.gov.vn/tin-van/tuan-van-hoa-du-lich-quang-tri-ky-i-nam-2026-dien-ra-tu-ngay-24-den-30-11-2026-voi-chu-de-ruc-ro-307952"
+    },
+    {
+      "id": "308270",
+      "title": "Ba câu lạc bộ đoạt giải A toàn đoàn tại Liên hoan Đờn ca tài tử",
+      "summary": "Tối 27/11, tại Khu lưu niệm Nghệ thuật Đờn ca tài tử Nam Bộ và nhạc sĩ Cao Văn Lầu, phường Bạc Liêu, Liên hoan Đờn ca tài tử Nam Bộ tỉnh Cà Mau lần thứ II năm 2026 bế mạc và trao giải. Ba câu lạc bộ Sông nước Cà Mau, Phù Sa Hòa Điệu và phường Vĩnh Trạch đoạt giải A toàn đoàn.",
+      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/9_wm.639314574642845414.jpg",
+      "date": "2026-11-28T10:12",
+      "cat": "van-hoa-xa-hoi",
+      "catName": "Văn hóa – Xã hội",
+      "url": "https://camau.gov.vn/van-hoa-xa-hoi/ba-cau-lac-bo-doat-giai-a-toan-doan-tai-lien-hoan-don-ca-tai-tu-308270"
+    },
+    {
+      "id": "308259",
+      "title": "Thảo luận về giải pháp kiến tạo động lực tăng trưởng mới",
+      "summary": "Ngày 27/11, Bộ Tài chính phối hợp với Tổ chức Hợp tác Quốc tế Đức (GIZ) tổ chức Diễn đàn kinh tế - tài chính Việt Nam năm 2026 bằng hình thức trực tiếp kết hợp trực tuyến. Với chủ đề “Đổi mới mô hình phát triển đất nước - Kiến tạo các động lực tăng trưởng mới”, diễn đàn tập trung thảo luận giải pháp",
+      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/8_wm.639314566328516311.jpg",
+      "date": "2026-11-27T09:58",
+      "cat": "kinh-te",
+      "catName": "Kinh tế",
+      "url": "https://camau.gov.vn/kinh-te/thao-luan-ve-giai-phap-kien-tao-dong-luc-tang-truong-moi-308259"
+    },
+    {
+      "id": "308258",
+      "title": "Thẩm tra các dự thảo nghị quyết về chính sách văn hóa, xã hội",
+      "summary": "Ngày 27/11, Ban Văn hóa - Xã hội HĐND tỉnh tổ chức hội nghị thẩm tra các văn bản trình Kỳ họp thứ 8, HĐND tỉnh khóa XI, nhiệm kỳ 2026 - 2031. Nội dung thẩm tra tập trung làm rõ đối tượng, phạm vi áp dụng, mức hỗ trợ, nguồn kinh phí và trách nhiệm tổ chức thực hiện các chính sách.",
+      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/5_wm.639314563048645423.jpg",
+      "date": "2026-11-27T09:53",
+      "cat": "van-hoa-xa-hoi",
+      "catName": "Văn hóa – Xã hội",
+      "url": "https://camau.gov.vn/van-hoa-xa-hoi/tham-tra-cac-du-thao-nghi-quyet-ve-chinh-sach-van-hoa-xa-hoi-308258"
+    },
+    {
+      "id": "308257",
+      "title": "Chương trình “Mái ấm gia đình Việt” dự kiến ghi hình tại Cà Mau vào tháng 01/2027",
+      "summary": "Ngày 27/11, Phó Chủ tịch UBND tỉnh Ngô Vũ Thăng chủ trì buổi làm việc về kế hoạch phối hợp tổ chức chương trình “Mái ấm gia đình Việt” tại Cà Mau. Chương trình dự kiến ghi hình vào tháng 01/2027, nhằm hỗ trợ học sinh, sinh viên có hoàn cảnh khó khăn tiếp tục học tập.",
+      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/3_wm.639314559342903343.jpg",
+      "date": "2026-11-27T09:46",
+      "cat": "van-hoa-xa-hoi",
+      "catName": "Văn hóa – Xã hội",
+      "url": "https://camau.gov.vn/van-hoa-xa-hoi/chuong-trinh-mai-am-gia-dinh-viet-du-kien-ghi-hinh-tai-ca-mau-vao-thang-01-2027-308257"
     },
     {
       "id": "308224",
@@ -1161,46 +1201,6 @@
       "cat": "kinh-te",
       "catName": "Kinh tế",
       "url": "https://camau.gov.vn/kinh-te/thao-luan-ve-giai-phap-tang-truong-kinh-te-gan-voi-xay-dung-he-thong-chinh-tri-cap-xa-vung-manh-307711"
-    },
-    {
-      "id": "307705",
-      "title": "Phó Thủ tướng Nguyễn Văn Thắng chỉ đạo tăng cường kiểm soát giá, ổn định thị trường",
-      "summary": "Sáng 09/11, Phó Thủ tướng Chính phủ Nguyễn Văn Thắng chủ trì cuộc họp Ban Chỉ đạo Điều hành giá nhằm đánh giá tình hình quản lý, điều hành giá tháng 10 và 10 tháng năm 2026; đồng thời triển khai các giải pháp kiểm soát lạm phát trong những tháng cuối năm. Cuộc họp được tổ chức bằng hình thức trực ti",
-      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/_DSC0196_wm.639298441123258872.jpg",
-      "date": "2026-11-09T18:04",
-      "cat": "kinh-te",
-      "catName": "Kinh tế",
-      "url": "https://camau.gov.vn/kinh-te/pho-thu-tuong-nguyen-van-thang-chi-dao-tang-cuong-kiem-soat-gia-on-dinh-thi-truong-307705"
-    },
-    {
-      "id": "307693",
-      "title": "Ban hành danh mục người có nghĩa vụ kê khai tài sản, thu nhập hằng năm",
-      "summary": "Chủ tịch UBND tỉnh Cà Mau ban hành Quyết định về danh mục người có nghĩa vụ kê khai tài sản, thu nhập hằng năm. Các cơ quan, đơn vị phải rà soát, xác định đầy đủ người thuộc diện kê khai và tổ chức tiếp nhận, công khai, quản lý, bàn giao bản kê khai theo quy định.",
-      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/tai san.639298310727226062.png",
-      "date": "2026-11-08T14:25",
-      "cat": "chinh-sach-phap-luat",
-      "catName": "Chính sách – Pháp luật",
-      "url": "https://camau.gov.vn/chinh-sach-phap-luat/ban-hanh-danh-muc-nguoi-co-nghia-vu-ke-khai-tai-san-thu-nhap-hang-nam-307693"
-    },
-    {
-      "id": "307629",
-      "title": "Cà Mau mít tinh, diễu hành hưởng ứng Ngày Pháp luật Việt Nam",
-      "summary": "Sáng 06/11, Hội đồng Phối hợp phổ biến, giáo dục pháp luật tỉnh Cà Mau tổ chức lễ mít tinh và diễu hành hưởng ứng Ngày Pháp luật Việt Nam (9/11). Các hoạt động tập trung khuyến khích chủ động tìm hiểu pháp luật, đổi mới tuyên truyền và xây dựng văn hóa tuân thủ pháp luật.",
-      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/480_wm.639295744127539008.jpg",
-      "date": "2026-11-06T15:08",
-      "cat": "chinh-sach-phap-luat",
-      "catName": "Chính sách – Pháp luật",
-      "url": "https://camau.gov.vn/chinh-sach-phap-luat/ca-mau-mit-tinh-dieu-hanh-huong-ung-ngay-phap-luat-viet-nam-307629"
-    },
-    {
-      "id": "307551",
-      "title": "Phát động cuộc thi trực tuyến “Tìm hiểu pháp luật về xây dựng xã, phường đạt chuẩn tiếp cận pháp luật” năm 2026",
-      "summary": "Ban Tổ chức các cuộc thi “Tìm hiểu pháp luật năm 2026” vừa đề nghị Chủ tịch UBND các xã, phường triển khai cuộc thi trực tuyến về chuẩn tiếp cận pháp luật. Cuộc thi nhằm nâng cao trách nhiệm của cán bộ, công chức, viên chức và khả năng tiếp cận, thực hiện pháp luật tại cơ sở.",
-      "image": "https://files-vnportalcmu.camau.gov.vn/cmu-chinhquyen/1/tintuc/2026/11/11 (1)_wm.639294658790702003.jpg",
-      "date": "2026-11-05T09:00",
-      "cat": "chinh-sach-phap-luat",
-      "catName": "Chính sách – Pháp luật",
-      "url": "https://camau.gov.vn/chinh-sach-phap-luat/phat-dong-cuoc-thi-truc-tuyen-tim-hieu-phap-luat-ve-xay-dung-xa-phuong-dat-chuan-tiep-can-phap-l-307551"
     }
   ],
   "tourism": [
